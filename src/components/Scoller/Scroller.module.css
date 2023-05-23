@@ -8,7 +8,7 @@
 .scroller > span {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;
+  animation: slide 10s infinite;
   font-weight: bold;
 }
 @keyframes slide {

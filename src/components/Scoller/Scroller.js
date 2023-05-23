@@ -6,9 +6,9 @@ export default function Scroller() {
     <div className={styles.scroller}>
       <span>
         cars <br />
-        shoes <br />
+        sneakers <br />
         rap <br />
-        coding
+        coding (duh)
       </span>
     </div>
   );
