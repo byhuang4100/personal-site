@@ -1,17 +1,19 @@
-import react from 'react';
+import styles from './Header.module.css';
 
 export default function Header() {
   return (
-    <ul>
-      <li>
-        <a>About</a>
-      </li>
-      <li>
-        <a>Work</a>
-      </li>
-      <li>
-        <a>Cool Stuff</a>
-      </li>
-    </ul>
+    <div className={styles.wrapper}>
+      <ul className={styles.links}>
+        <li>
+          <a href="@/pages/About/About">About</a>
+        </li>
+        <li>
+          <a>Work</a>
+        </li>
+        <li>
+          <a>Cool Stuff</a>
+        </li>
+      </ul>
+    </div>
   );
 }
