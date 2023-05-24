@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  border: 1px solid blue;
+  height: auto;
+  width: 50%;
+}
+
+.intro {
+  height: 100%;
+  width: 50%;
+}
+
+.txt {
+  font-size: 20px;
+}

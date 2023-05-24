@@ -1,14 +1,23 @@
 import react from 'react';
 import Image from 'next/image';
 import Scroller from '../Scoller/Scroller';
+import styles from './Card.module.css';
 
 export default function Card() {
   return (
-    <div>
-      <h1>
-        HI IM BENJAMIN HUANG I LIKE:
-        <Scroller />
-      </h1>
+    <div className={styles.wrapper}>
+      <div className={styles.intro}>
+        <h1>
+          Hey, I'm Ben. I like
+          <Scroller />
+        </h1>
+        <div className={styles.txt}>
+          I am a fullstack engineer that loves to build cool stuff.
+          <br />
+          Currently, I am working on a few projects that I am excited to share
+          with you soon.
+        </div>
+      </div>
     </div>
   );
 }
