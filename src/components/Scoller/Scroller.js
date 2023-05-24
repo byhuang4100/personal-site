@@ -8,6 +8,7 @@ export default function Scroller() {
         cars. <br />
         sneakers. <br />
         rap. <br />
+        the gym. <br />
         coding (duh).
       </span>
     </div>

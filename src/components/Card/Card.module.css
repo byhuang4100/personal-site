@@ -1,6 +1,6 @@
 .wrapper {
   display: flex;
-  border: 1px solid blue;
+  flex-direction: column;
   height: auto;
   width: 50%;
 }
@@ -12,4 +12,11 @@
 
 .txt {
   font-size: 20px;
+}
+
+.line {
+  background-color: black;
+  height: 1px;
+  width: 100%;
+  margin-top: 100px;
 }
