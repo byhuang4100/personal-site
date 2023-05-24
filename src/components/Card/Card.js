@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import react from 'react';
 import Image from 'next/image';
-import Scroller from '../Scoller/Scroller';
+import Scroller from '../Scroller/Scroller';
 import styles from './Card.module.css';
 
 export default function Card() {
@@ -11,7 +11,8 @@ export default function Card() {
         <h1>
           Hey, I'm Ben.
           <br />
-          I like <Scroller />
+          I like
+          <Scroller />
         </h1>
         ‍
         <div className={styles.txt}>

@@ -7,15 +7,9 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <div className={styles.body}>
-      <Card />
       {/* <Header /> */}
+      <Card />
       <div>HELLO</div>
-      <Image
-        src="https://canary---yellow.com/wp-content/themes/virgilabloh/images/hammer-trasp.gif"
-        alt="work in progress"
-        width={100}
-        height={100}
-      />
     </div>
   );
 }
