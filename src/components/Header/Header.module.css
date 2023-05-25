@@ -1,8 +1,16 @@
 .wrapper {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .me {
+  position: relative;
+  top: 0px;
+  left: 0px;
   transition: transform 0.7s ease-in-out;
 }
 
@@ -11,5 +19,8 @@
 }
 
 .links li {
+  position: relative;
+  top: 0px;
+  right: 0px;
   display: inline;
 }
