@@ -1,5 +1,13 @@
 .wrapper {
-  display: inline;
+  display: inline-block;
+}
+
+.me {
+  transition: transform 0.7s ease-in-out;
+}
+
+.me:hover {
+  transform: rotate(360deg);
 }
 
 .links li {
